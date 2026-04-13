@@ -1,0 +1,28 @@
+body{
+    /* background-color: #dbbd77; */
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.viewPrincipal{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.divPrincipal{
+    height: 100%;
+    width: 80%;
+}
+.secaoPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(171, 199, 201);
+}
+

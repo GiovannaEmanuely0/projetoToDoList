@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(171, 199, 201);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.viewPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secaoPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+.divDescUser{
+    height: 50%;
+    width: 100%;
+}
+.divDescUser h1{
+    font-size: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.divDescUser h2{
+    font-size: 20px;
+    text-align: justify;
+}
+.divDescUser .iconUser{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.divDescUser div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    cursor: pointer;
+}
+.divDescUser .iconUser:hover{
+    /* background-color: #ffacab; */
+    background-color: inherit;
+    transform: none;
+    color: inherit;
+}
+.div2{
+    width: 80%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.divUser1{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    /* background-color: #ffdbba; */
+    gap: 5pxs;
+}
+
+.divUser2{
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+    background: rgb(191, 209, 210);
+    padding: 1%;
+    overflow-y: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.fotoUser{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #181a2c;
+    background: linear-gradient(to right, #c0a6eb, #7AA3B3);
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.divCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tarefa{
+    height: 100px;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    font-weight: 700;
+}
+.tarefa h1{
+    font-size: 15px;
+}
+.tarefa p{
+    font-size: 30px;
+}
+.tarefa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.con{
+    background-color: #c0a6eb;
+}
+.em{
+    background-color: #ff8894;
+}
+.pen{
+    background-color: #ffdbba;
+}
+.divGroups{
+    overflow-y: auto;
+    height: 150px;
+    width: 95%;
+    border: 1px solid #181a2c;
+    border-radius: 10px;
+    padding: 1%;
+}
+.grupo{
+    height: 50px;
+    width: 90%;
+    padding: 5px;
+    background: #181a2c;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+.grupo h1{
+    font-size: 25px;
+}
+.colorGroup{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #c0a6eb;
+}
+
+.groupTarefas{
+    overflow-y: auto;
+    height: 90px;
+    width: 95%;
+    border: 1px solid #181a2c;
+    border-radius: 10px;
+    padding: 1%;
+}
+.cardtarefas{
+    background: #e6e6e6;
+    width: 98%;
+    height: 40px;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

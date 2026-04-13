@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.secao_cadastro{
+    width: 30%;
+    height: auto;
+    background-color: rgb(191, 209, 210);
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.title_cadastro{
+    /* background: linear-gradient(to right, #c0a6eb, #c3e0eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #181a2c;
+}
+.form_cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.groupInput {
+  position: relative;
+  margin: 20px 0;
+}
+
+.groupInput input {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #181a2c;
+  outline: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.groupInput label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #777;
+  padding: 0 5px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+/* Quando clica ou digita */
+.groupInput input:focus + label,
+.groupInput input:valid + label {
+  top: -8px;
+  font-size: 18px;
+  background: #163d4d;
+  border-radius: 2px;
+  color: #f4efef;
+}
+.botao{
+    background: #181a2c;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ccc;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 1s;
+}
+.botao:hover{
+    background: linear-gradient(to right, #163d4d, #558f82);
+    transition: 1s;
+    color: #181a2c;
+}
+.link a{
+    text-decoration: none;
+    color: #181a2c;
+}
+.erro_email{
+    color: rgb(190, 17, 17);
+}
