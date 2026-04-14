@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+//rotas das api's
+Route::get('/usuario','App\Http\Controllers\userController@indexApi');
+Route::get('/admin','App\Http\Controllers\adminController@indexApi');
