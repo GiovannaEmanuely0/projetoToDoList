@@ -18,10 +18,14 @@ class adminController extends Controller
         $usuario = userModel::latest()->take(10)->get();
         $adm = adminModel::first();
         return view('nivelAdm.adm',compact('adm', 'usuario'));
-
         
     }
 
+    public function indexApi()
+    {
+        $adm = adminModel::first();
+        return $adm;
+    }
     /**
      * Show the form for creating a new resource.
      *
