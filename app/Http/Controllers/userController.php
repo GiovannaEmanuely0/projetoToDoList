@@ -19,6 +19,11 @@ class userController extends Controller
         return view('nivelUsuario.usuario', compact('usuario'));
 
     }
+    public function indexApi()
+    {
+        $usuario = userModel::all();
+        return $usuario;
+    }
 
     /**
      * Show the form for creating a new resource.
