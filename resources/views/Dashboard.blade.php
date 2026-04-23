@@ -15,11 +15,32 @@
 </head>
 <body>
     <section class="viewPrincipal">
-        <x-header/>
-        <section class="secaoPrincipal">
-            <x-menu/>
-            <div class="divPrincipal"></div>
-        </section>
+        <x-menu/>
+        <div class="dashboard">
+            <div class="dashboard_inicial">
+                <div><h1>Olá explorador</h1><p>descricao</p></div>
+                <div>
+                    <input type="text" name="" id="">
+                    <button type="button">notificacoes</button>
+                    <button type="button">adicionar tarefa</button>
+                </div>
+            </div>
+            <div class="dashboard_secaotarefas">
+                <h1>hoje é ...</h1>
+                <div>
+                    <ul>
+                        <li>tarefa 1</li>
+                        <li>tarefa 2</li>
+                        <li>tarefa 3</li>
+                        <li>tarefa 4</li>
+                        <li>tarefa 5</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dashboard_final">
+                <h1>descricao</h1>
+            </div>
+        </div>
     </section>
 </body>
 </html>
