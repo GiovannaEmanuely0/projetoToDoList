@@ -10,10 +10,10 @@
         <input type="submit" value="+">
         <div>
             <ul>
-                <li>Exemplo 1</li>
-                <li>Exemplo 2</li>
-                <li>Exemplo 3</li>
-                <li>Exemplo 4</li>
+                <li>Exemplo 1 <p>1</p></li>
+                <li>Exemplo 2 <p>3</p></li>
+                <li>Exemplo 3 <p>4</p></li>
+                <li>Exemplo 4 <p>5</p></li>
             </ul>
         </div>
     </div>
