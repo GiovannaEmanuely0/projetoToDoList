@@ -14,70 +14,97 @@
 </head>
 <body>
     <section class="viewPrincipal">
-        <x-header/>
-
-        <div class="secaoPrincipal">
-            <x-menu/>
-            <div class="div2">
-                <div class="divUser1">
-                    <!-- precisa de um insert na tabela com a foto -->
-                    <div class="divFotoUserr"><input type="file" name="" id="" class="fotoUser"></div>
-                    <div class="divDescUser">
-                        <h1>{{$usuario->nome}}</h1>
-                        <div><span class="material-symbols-outlined iconUser">mail</span><h2>{{$usuario->email}}</h2></div>
-                        <div><span class="material-symbols-outlined iconUser">edit</span><p>Editar Pefil</p></div>
-                        <div><span class="material-symbols-outlined iconUser">logout</span><p>logout</p></div>
+        <x-menu/>
+        <div class="dashboard_usuario">
+            <div class="dashboard_meuPerfil">
+                <div>
+                    <input type="file" name="" id="">
+                    <h1>Meu Perfil</h1>
+                    <p>descricao</p>
+                </div>
+                <div>
+                    <button type="button">Editar Perfil</button>
+                    <button type="button">setting</button>
+                </div>
+            </div>
+            <div class="dashboard_perfil">
+                <div>
+                    <div>
+                        <input type="file" name="" id="">
+                        <div>
+                            <h1>Explorador <p>nível</p></h1>
+                            <h2>email</h2>
+                            <h2>descricao</h2>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <icon>oi</icon>
+                            <div>
+                                <h1>4569</h1>
+                                <p>xp?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <icon>oi</icon>
+                            <div>
+                                <h1>4569</h1>
+                                <p>xp?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <icon>oi</icon>
+                            <div>
+                                <h1>4569</h1>
+                                <p>xp?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <icon>oi</icon>
+                            <div>
+                                <h1>4569</h1>
+                                <p>xp?</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="divUser2">
+                <div>
                     <div>
-                        <h1>Tarefas</h1>
-                        <!-- precisa de um selct count para consulta das tarefas -->
-                        <div class="divCards">
-                            <div class="tarefa con">
-                                <h1>Concluídas</h1>
-                                <p>1</p>
-                            </div>
-                            <div class="tarefa em">
-                                <h1>Em progresso</h1>
-                                <p></p>
-                            </div>
-                            <div class="tarefa pen">
-                                <h1>Pendentes</h1>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h1>Seus Grupos</h1>
-                        <!-- precisa de um selct para consulta dos grupos -->
-                        <div class="divGroups">
-                            <div class="grupo">
-                                <h1>nome do grupo</h1>
-                                <p>Tarefas:</p>
-                                <p class="colorGroup"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <!-- precisa de um selct para consulta das tarefas -->
-                        <h1>Tarefas recentes</h1>
-                        <div class="groupTarefas">
-                            <div class="cardtarefas">
-                                <div>
-                                    <input type="radio" name="txTarefa" id="">
-                                    <label for="txTarefa">Nome tarefa</label>
-                                </div>
-                                <p>data início tarefa</p>
-                                <p>categoria tarefa</p>
-                                <p>Prioridade</p>
-                            </div>
-                        </div>
+                        <h1>próximo nível</h1>
                     </div>
                 </div>
             </div>
-        </div>
-        
+            <div class="dashboard_menu">
+                <h1>Atividades</h1>
+                <h1>Estatísticas</h1>
+                <h1>configuracoes</h1>
+            </div>
+            <div class="dashboard_atividades">
+                <div>
+                    <h1>Atividades recentes</h1>
+                    <div>
+                        <ul>
+                            <li>oi</li>
+                            <li>tudo</li>
+                            <li>bem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1>conquistas</h1>
+                    <div>
+                        <icon>icone 1</icon>
+                        <icon>icone 1</icon>
+                        <icon>icone 1</icon>
+                    </div>
+                </div>
+            </div>
+            <div class="dascboard_footer">
+                <div>Membro desde</div>
+                <div>Fuso horário</div>
+                <div>Idioma</div>
+            </div>
+        </div>        
     </section>
 </body>
 </html>
